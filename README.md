@@ -24,8 +24,9 @@ recyclerView.setAdapter(adapter);
 详情参见：[介绍和基本使用](https://mp.weixin.qq.com/s/CzrKotyupXbYY6EY2HP_dA)
 ### 三、辅助类
 RecyclerView的强大和可扩展性离不开其众多辅助类。其中`Adapter和ViewHolder`以及`LayoutManager`是展示列表所必须的，其他辅助类配合能完成更多复杂炫酷的需求。
-|        辅助类         |                    简介                    |                   详细介绍                   |                 优秀开源库链接                  |
-| :----------------: | :--------------------------------------: | :-------------------------: | :--------------------------------------: |
+
+|辅助类 | 简介 | 详细介绍 | 优秀开源库链接 |
+| :-: | :-: | :-: | :-: |
 | Adapter和ViewHolder | RecyclerView本身不创建视图，视图的创建和显示由ViewHolder负责。ViewHolder的创建和数据绑定由Adapter负责 | [Adapter和ViewHolder简介](https://blog.csdn.net/yjfhacker/article/details/52412394) <br/> <br/>    [RecyclerView的ViewHolder和Adapter的封装](http://blog.devwiki.net/index.php/2016/07/17/Recycler-View-Adapter-ViewHolder-optimized.html) | [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) |
 |   LayoutManager    | LayoutManager负责RecyclerView的布局，其中包含了Item View的获取与回收 | [LayoutManager的基本使用](https://juejin.im/entry/59c45d625188254f58412a97)        <br/> <br/> [自定义LayoutManager](https://blog.csdn.net/qibin0506/article/details/52676670) | [LayoutManager开源库合集](https://mp.weixin.qq.com/s/59YLxK8C5IGwwpZ9P8NjZw)   <br/>  <br/>[LayoutManagerGroup](https://github.com/DingMouRen/LayoutManagerGroup) |
 |   ItemDecoration   |               ItemView的装饰器               |  [深入解析 RecyclerView.ItemDecoration类（含实例讲解）](https://www.jianshu.com/p/9a796bb23a47)  | [RecyclerView-FlexibleDivider](https://github.com/yqritc/RecyclerView-FlexibleDivider) <br/>  <br/> [TimeLine](https://github.com/vivian8725118/TimeLine) |
