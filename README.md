@@ -1,8 +1,8 @@
-#RecyclerVew介绍
-###一、目录
-![目录](https://img-blog.csdn.net/20180729103734678?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0pRX01vdGVl/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+# RecyclerVew介绍
+### 一、目录
+![目录](./image/list.png)
 
-###二、介绍和基本使用
+### 二、介绍和基本使用
 RecyclerView是Android 5.0提出的新UI控件，位于support-v7包中，向下兼容到android 3.0版本，在很多列表场景中能替代ListView和GridView。
 基本使用分三步：
 
@@ -22,7 +22,7 @@ recyclerView.setAdapter(adapter);
 ```
 
 详情参见：[介绍和基本使用](https://mp.weixin.qq.com/s/CzrKotyupXbYY6EY2HP_dA)
-###三、辅助类
+### 三、辅助类
 RecyclerView的强大和可扩展性离不开其众多辅助类。其中`Adapter和ViewHolder`以及`LayoutManager`是展示列表所必须的，其他辅助类配合能完成更多复杂炫酷的需求。
 |        辅助类         |                    简介                    |                   详细介绍                   |                 优秀开源库链接                  |
 | :----------------: | :--------------------------------------: | :-------------------------: | :--------------------------------------: |
@@ -33,18 +33,18 @@ RecyclerView的强大和可扩展性离不开其众多辅助类。其中`Adapter
 |  ItemTouchHelper   |                ItemView拖拽                | [RecyclerView实现条目Item拖拽排序与滑动删除](https://blog.csdn.net/yanzhenjie1003/article/details/51935982) | [Android-ItemTouchHelper-Demo](https://github.com/iPaulPro/Android-ItemTouchHelper-Demo) |
 |     SnapHelper     |              ItemView的对齐规则               | [SnapHelper详解](https://www.jianshu.com/p/e54db232df62) <br/>  <br/>[SnapHelper介绍](https://juejin.im/post/58dd3d53da2f60005fbb0a6c) | [RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap) |
 |      DiffUtil      | 配合RecyclerView 使用，通过比对新、旧两个数据集的差异，生成旧数据到新数据的最小变动，然后对有变动的数据项，进行局部刷新 | [详解DiffUtil](https://blog.csdn.net/zxt0601/article/details/52562770)<br/>  <br/> [DiffUtil介绍](https://juejin.im/post/5995ba616fb9a024747ed8e8) |                                     |
-###四、源码分析
+### 四、源码分析
 [RecyclerView 源码解析](https://juejin.im/entry/586a12c5128fe10057037fba)
 [RecyclerView 整体设计](https://www.jianshu.com/p/9ddfdffee5d3)
 [RecyclerView剖析](https://blog.csdn.net/qq_23012315/article/details/50807224)
-###五、功能拓展和特效
+### 五、功能拓展和特效
 
  1. [RecyclerView嵌套实现多级目录](https://blog.csdn.net/xiaozhoubaiyong/article/details/70157150)
  2. [RecyclerView添加Header和Footer](https://blog.csdn.net/lmj623565791/article/details/51854533)
  3. [Item侧滑删除](https://github.com/daimajia/AndroidSwipeLayout)
  4. 下拉刷新、上拉加载的优秀开源库[XRecyclerView](https://github.com/XRecyclerView/XRecyclerView)、[SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)、官方的`SwipeRefreshLayout`
  
-###六、常见问题和bug
+### 六、常见问题和bug
  5.  [Android 6.0 解决recyclerview 在 scrollview 中不能全部显示](https://www.jianshu.com/p/3815d36fd371?nomobile=yes)
  6. [RecyclerView滑动到指定位置](https://blog.csdn.net/shanshan_1117/article/details/78780137)
 
